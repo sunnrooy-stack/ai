@@ -41,7 +41,7 @@ import ManagePlaylist from './pages/ManagePlaylist'
 import UseGetRecommendation from './customHooks/UseGetRecommendation'
 import RevenuePage from './component/RevenuePage'
 
-export const serverUrl = "https://https-github-com-sunnrooy-stack-play-1.onrender.com"
+export const serverUrl = "https://ai-g3aa.onrender.com"
 
 const ProtectedRoute = ({ userData, children }) => {
   if (!userData) {
